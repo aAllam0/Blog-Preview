@@ -1,0 +1,76 @@
+:root {
+  --yellow-color: hsl(47, 88%, 63%);
+  --white-color: hsl(0, 0%, 100%);
+  --grey-color: hsl(0, 0%, 50%);
+  --black-color: hsl(0, 0%, 7%);
+}
+body {
+  font-family: "Figtree", sans-serif;
+  margin: 0;
+  background-color: var(--yellow-color);
+}
+.blog-preview {
+  background-color: var(--white-color);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  box-shadow: 15px 13px 0 var(--black-color);
+  border: 1px solid var(--black-color);
+  padding: 20px;
+  max-width: 300px;
+}
+.blog-preview > img {
+  max-width: 100%;
+  margin-bottom: 15px;
+}
+.blog-preview > span {
+  display: block;
+  width: fit-content;
+  background: var(--yellow-color);
+  color: var(--black-color);
+  font-weight: 900;
+  border-radius: 4px;
+  padding: 5px 12px;
+}
+.blog-preview > p {
+  font-size: 14px;
+  margin: 10px 0 20px;
+  font-weight: 600;
+}
+.blog-preview .info h3 {
+  margin: 0;
+  font-weight: 800;
+  cursor: pointer;
+  transition: 0.3s;
+  width: fit-content;
+}
+.blog-preview .info h3:hover {
+  color: var(--yellow-color);
+}
+.blog-preview .info p {
+  color: var(--grey-color);
+  margin: 10px 0 20px;
+  line-height: 1.4;
+  font-size: 15px;
+}
+.blog-preview .avatar {
+  display: flex;
+  align-items: center;
+}
+.blog-preview .avatar img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.blog-preview .avatar span {
+  flex: 1;
+  font-size: 14px;
+  font-weight: 800;
+}
+@media (max-width: 767px) {
+  .blog-preview {
+    width: 100%;
+  }
+}
