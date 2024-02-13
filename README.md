@@ -11,7 +11,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: (https://github.com/aAllam0/)
+- Live Site URL: (https://aallam0.github.io/Blog-Preview/)
 
 ### Author
 
