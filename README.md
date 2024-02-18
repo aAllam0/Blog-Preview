@@ -1,17 +1,14 @@
 # Frontend Mentor - Blog preview card solution
 
-
-### The Challenge
-
-Users should be able to:
-
-- See hover and focus states for all interactive elements on the page
-
 ![](assets/images/blog-preview-card-main.png)
 
 ### Links
 
-- Live Site URL: (https://aallam0.github.io/Blog-Preview/)
+- Live Site URL: (https://aallam0.github.io/Blog-Preview)
+
+### Useful resources
+
+- (https://elzero.org)
 
 ### Author
 
