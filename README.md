@@ -1,4 +1,4 @@
-# Frontend Mentor - Blog preview card solution
+# Frontend Mentor - Blog preview page
 
 ![](assets/images/blog-preview-card-main.png)
 
