@@ -4,6 +4,7 @@
 
 ### Links
 
+- Solution URL: (https://www.frontendmentor.io/solutions/black-shadow-using-css-boxshadow-QC-mojfAoj)
 - Live Site URL: (https://aallam0.github.io/Blog-Preview)
 
 ### Useful resources
